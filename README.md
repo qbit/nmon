@@ -12,7 +12,7 @@ Fire events when the http header last-modified is changed for a file.
 	var nmon = require( 'nmon' );
 	var mon = new nmon();
 
-	mon.create( 'http, {
+	mon.create( 'http', {
 		interval: 1000,
 		name: 'potato',
 		url: 'http://localhost:3000/file'
