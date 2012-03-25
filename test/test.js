@@ -10,8 +10,8 @@ var params = {
 
 mon.create( 'http', params );
 
-mon.on( 'file', function( date ) {
-	console.log( 'file has been modified: %s', date );
+mon.on( 'file', function( o ) {
+	console.log( 'file has been modified: %s', o.date );
 });
 
 mon.monitor();
