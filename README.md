@@ -5,7 +5,7 @@ Fire events when the http header last-modified is changed for a file.
 
  Currently only http is supported
 
- ## Usage
+## Usage
 
 	npm install nmon
 	
