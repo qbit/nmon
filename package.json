@@ -1,0 +1,16 @@
+{
+  "author": "Aaron Bieber <deftly@gmail.com>",
+  "name": "nmon",
+  "description": "Monitor remote files ( http currently ) for file modifications",
+  "version": "0.1.0",
+  "repository": {
+    "url": "git://github.com/qbit/nmon.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
