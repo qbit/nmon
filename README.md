@@ -7,21 +7,21 @@ Fire events when the http 'last-modified' header is changed for a file.
 
 ## Usage
 
-	```javascript
-	npm install nmon
-	
-	var nmon = require( 'nmon' );
-	var mon = new nmon();
+```javascript
+npm install nmon
 
-	mon.create( 'http', {
-		interval: 1000,
-		name: 'potato',
-		url: 'http://localhost:3000/file'
-	});
+var nmon = require( 'nmon' );
+var mon = new nmon();
 
-	mon.on( 'potato', function( date ) {
-		console.log( 'potato has been updated: %s', date );
-	});
+mon.create( 'http', {
+	interval: 1000,
+	name: 'potato',
+	url: 'http://localhost:3000/file'
+});
 
-	mon.monitor();
-	```
+mon.on( 'potato', function( date ) {
+	console.log( 'potato has been updated: %s', date );
+});
+
+mon.monitor();
+```
