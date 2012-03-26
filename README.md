@@ -1,5 +1,5 @@
 # Nmon
-Fire events when the http header last-modified is changed for a file.
+Fire events when the http 'last-modified' header is changed for a file.
 
  [![Build Status](https://secure.travis-ci.org/qbit/nmon.png)](http://travis-ci.org/qbit/nmon)
 
