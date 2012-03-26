@@ -7,8 +7,13 @@ Fire events when the http 'last-modified' header is changed for a file.
 
 ## Usage
 
+### Install
+
+	npm install nmon
+
+### Example
+
 ```javascript
-npm install nmon
 
 var nmon = require( 'nmon' );
 var mon = new nmon();
