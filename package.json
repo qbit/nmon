@@ -2,7 +2,7 @@
   "author": "Aaron Bieber <deftly@gmail.com>",
   "name": "nmon",
   "description": "Monitor remote files ( http currently ) for file modifications",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "repository": {
     "url": "git://github.com/qbit/nmon.git"
   },

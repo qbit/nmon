@@ -4,13 +4,13 @@ var srs = [
 	{ 
 		interval: 1000,
 		name: 'file1',
-		url: 'http://localhost:3000/file1',
+		url: 'http://localhost:3000/file1'.replace( '3000', process.env['TEST_PORT'] )
 	},
 
 	{ 
 		interval: 1000,
 		name: 'file2',
-		url: 'http://localhost:3000/file2',
+		url: 'http://localhost:3000/file2'.replace( '3000', process.env['TEST_PORT'] )
 	},
 ];
 
