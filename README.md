@@ -23,7 +23,7 @@ var mon = new nmon();
 mon.create( 'http', {
 	interval: 1000,
 	name: 'potato',
-  // server: 'localhost', \_________ Ftp optoins
+  // server: 'localhost', \_________ Ftp options
   // path: '/awesome',    |
   // port: 'ftpport',     |
   // user: 'ftpuser',     |
