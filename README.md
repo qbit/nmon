@@ -24,7 +24,10 @@ mon.create( 'http', {
 	interval: 1000,
 	name: 'potato',
   // server: 'localhost', \_________ Ftp optoins
-  // path: '/awesome',    /
+  // path: '/awesome',    |
+  // port: 'ftpport',     |
+  // user: 'ftpuser',     |
+  // pass: 'ftppass',     /
 	url: 'http://localhost:3000/file'
 });
 
