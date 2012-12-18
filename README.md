@@ -3,7 +3,7 @@ Fire events when the http 'last-modified' header is changed for a file.
 
  [![Build Status](https://secure.travis-ci.org/qbit/nmon.png)](http://travis-ci.org/qbit/nmon)
 
- Currently only http is supported
+ Currently only http and ftp are supported.
 
 ## Usage
 
