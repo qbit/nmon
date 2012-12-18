@@ -23,6 +23,8 @@ var mon = new nmon();
 mon.create( 'http', {
 	interval: 1000,
 	name: 'potato',
+  // server: 'localhost', \_________ Ftp optoins
+  // path: '/awesome',    /
 	url: 'http://localhost:3000/file'
 });
 
@@ -52,13 +54,29 @@ var srs = [
 		name: 'file2',
 		url: 'http://localhost:3000/file2',
 	},
+
+  /*
+  {
+    interval: 1000,
+    name: 'ftp1',
+    server: 'localhost',
+    path: '/awesome'
+  }
+  */
 ];
 
 
 var i = 0, l = srs.length;
 for ( ; i < l; i++ ) {
-	var a = srs[i]
-	mon.create( 'http', a );
+	var a = srs[i], type;
+
+  if ( a.server ) {
+    type = 'ftp';
+  } else {
+    type = 'http';
+  }
+
+	mon.create( type, a );
 	mon.on( a.name, function( o ) {
 		console.log( 'TEST', o.name, o.date );
 	});
