@@ -14,7 +14,7 @@ var params = {
 mon.create( 'ftp', params );
 
 mon.on( 'file', function( o ) {
-	console.log( 'file has been modified: %s', o.date );
+  console.log( 'file was modified %s', o.date );
 });
 
 mon.monitor();
