@@ -64,6 +64,7 @@ var srs = [
     name: 'ftp1',
     server: 'localhost',
     path: '/awesome'
+    // path: '/awesome2/' if path ends with a slash, nmon will return the most recent file in that directory
   }
   */
 ];
