@@ -7,6 +7,7 @@
     "url": "git://github.com/qbit/nmon.git"
   },
   "dependencies": {
+    "jsftp": "~0.5.5"
   },
   "devDependencies": {},
   "optionalDependencies": {},
